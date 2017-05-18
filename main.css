@@ -1,0 +1,170 @@
+* {
+	margin:0;
+}
+
+.parent {
+	height:100%;
+	display: flex;
+	flex-direction: column;
+	background: url("back6.jpg");
+}
+
+.header {
+	display:inline-flex;
+	font-size:25px;
+    height:50px;
+}
+
+.align {
+	width:100%;
+    position:absolute;
+    display:flex;
+    justify-content: center;
+}
+
+.kunal {
+	background-color: rgb(142,17,13);
+	padding:5px 20px;
+	color:white;
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+	float: left;
+	transition: all 1s;
+	height:50px;
+	
+	
+}
+
+.blank{
+	width:20px;
+	height:60px;
+	background-color: rgb(142,17,13);
+}
+
+.logo {
+	padding:5px 7px;
+	color:#fff;
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+	transition: all 1s;
+	float:left;
+	height:50px;
+}
+
+.home {
+	padding: 5px 20px;
+	background-color: rgb(142,17,13);
+    color:#fff;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 1s;
+    height: 50px;
+    float:left;
+    position: relative;
+
+}
+
+.contact {
+	padding: 5px 20px;
+	background-color: rgb(142,17,13);
+    color:#fff;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 1s;
+    height: 50px;
+    float:left;
+}
+
+.new{
+	width:100%;
+	background-color: rgb(142,17,13);
+	height:60px;
+}
+
+.register{
+	background-color: rgb(142,17,13);
+	padding:5px 20px;
+	display:flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 1s;
+    height: 50px;
+    float:right ;
+    color:#fff;
+    width:100%;
+
+
+}
+
+.login{
+	background-color: rgb(142,17,13);
+	padding:5px 20px;
+	display:flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 1s;
+    height: 50px;
+    float:right ;
+    color:#fff;
+    align-self: center;
+}
+
+.content{
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-flow: column;
+	height:100%;
+	font-weight: 3px;
+	font-size: 60px;
+	font-family: "Chalkduster";
+
+}
+
+.footer{
+	height:50px;
+	width:100%;
+	bottom:0 ;
+	background-color:rgb(142,17,13);
+	color:white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 1s;
+}
+
+
+
+.kunal:hover{
+	background-color: rgb(255,89,97);
+	color: black;
+}
+
+.login:hover{
+	background-color: rgb(255,89,97);
+	color: black;
+}
+
+.home:hover{
+	background-color: rgb(255,89,97);
+	color: black;
+}
+
+.contact:hover{
+	background-color: rgb(255,89,97);
+	color: black;
+}
+.register:hover{
+	background-color: rgb(255,89,97);
+	color: black;
+}
+.footer:hover{
+	color: rgb(255,89,97);
+}
+
+
